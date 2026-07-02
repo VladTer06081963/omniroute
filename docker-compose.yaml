@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     env_file: .env
     ports:
-      - "127.0.0.1:20128:20128"
+      - "20128:20128"
     volumes:
       - omniroute-data:/app/data
 
